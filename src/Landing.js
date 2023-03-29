@@ -42,6 +42,7 @@ export function NavbarStyle() {
               className="me-2"
               aria-label="Search"
             />
+           <input type="file" accept="image/*" />
             <Button variant="outline-success" style={{color:'white'}}>Search</Button>
           </Form>
         </Navbar.Collapse>
